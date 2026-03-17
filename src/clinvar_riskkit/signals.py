@@ -51,3 +51,31 @@ def derive_staleness_signal(df):
         df["years_since_eval"] = None
 
     return df
+def derive_review_signal(df):
+    """
+    Convert ClinVar review status to a numeric confidence score.
+    """
+
+    df = df.copy()
+
+    if "ReviewStatus" in df.columns:
+
+        review_map = {
+            "practice guideline": 4,
+            "reviewed by expert panel": 3,
+            "criteria provided, multiple submitters, no conflicts": 2,
+            "criteria provided, single submitter": 1,
+            "no assertion criteria provided": 0,
+        }
+
+        df["review_score"] = (
+            df["ReviewStatus"]
+            .str.lower()
+            .map(review_map)
+            .fillna(0)
+        )
+
+    else:
+        df["review_score"] = 0
+
+    return df
