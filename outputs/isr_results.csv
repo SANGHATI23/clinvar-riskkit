@@ -1,0 +1,6 @@
+VariationID,ClinicalSignificance,ReviewStatus,DateLastEvaluated,has_conflict,years_since_eval,review_score,conflict_score,staleness_score,review_risk,ISR_score
+1001,Pathogenic,criteria provided multiple submitters no conflicts,2019-05-01,False,7,0.0,0,0.7,4.0,4.7
+1002,Likely pathogenic,criteria provided single submitter,2018-03-12,False,8,0.0,0,0.8,4.0,4.8
+1003,Uncertain significance,no assertion criteria provided,2016-07-21,False,10,0.0,0,1.0,4.0,5.0
+1004,Conflicting interpretations of pathogenicity,criteria provided multiple submitters no conflicts,2020-09-10,True,6,0.0,1,0.6,4.0,5.6
+1005,Pathogenic,reviewed by expert panel,2022-01-15,False,4,3.0,0,0.4,1.0,1.4

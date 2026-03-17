@@ -1,4 +1,5 @@
 import os
+import sys
 
 from clinvar_riskkit.io import load_clinvar
 from clinvar_riskkit.signals import (
@@ -18,3 +19,12 @@ def run_pipeline(input_path: str, output_path: str) -> None:
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     df.to_csv(output_path, index=False)
+
+    print(f"Saved results to: {output_path}")
+
+
+if __name__ == "__main__":
+    input_path = sys.argv[1]
+    output_path = sys.argv[2]
+
+    run_pipeline(input_path, output_path)

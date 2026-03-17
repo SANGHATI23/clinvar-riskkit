@@ -1,0 +1,6 @@
+VariationID,ClinicalSignificance,ReviewStatus,DateLastEvaluated
+1001,Pathogenic,criteria provided multiple submitters no conflicts,2019-05-01
+1002,Likely pathogenic,criteria provided single submitter,2018-03-12
+1003,Uncertain significance,no assertion criteria provided,2016-07-21
+1004,Conflicting interpretations of pathogenicity,criteria provided multiple submitters no conflicts,2020-09-10
+1005,Pathogenic,reviewed by expert panel,2022-01-15
