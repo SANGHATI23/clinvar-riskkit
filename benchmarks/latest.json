@@ -1,0 +1,9 @@
+{
+  "dataset_path": "data/sample_clinvar.csv",
+  "output_path": "outputs/isr_results.csv",
+  "rows_processed": 5,
+  "runtime_seconds": 0.1292,
+  "throughput_rows_per_second": 38.7,
+  "python_version": "3.13.5",
+  "platform": "macOS-10.16-x86_64-i386-64bit-Mach-O"
+}

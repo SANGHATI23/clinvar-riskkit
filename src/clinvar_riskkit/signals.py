@@ -79,3 +79,11 @@ def derive_review_signal(df):
         df["review_score"] = 0
 
     return df
+def derive_signals(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Run all signal derivation steps in sequence.
+    """
+    df = derive_conflict_signal(df)
+    df = derive_staleness_signal(df)
+    df = derive_review_signal(df)
+    return df
