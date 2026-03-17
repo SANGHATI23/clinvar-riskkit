@@ -1,0 +1,28 @@
+variant,gene,condition,risk_tier,review_status
+BRCA1 c.68_69delAG,BRCA1,Hereditary Breast Cancer,Low,expert panel
+BRCA1 p.Cys61Gly,BRCA1,Hereditary Breast Cancer,Medium,multiple submitters
+BRCA2 c.5946delT,BRCA2,Hereditary Breast Cancer,Low,expert panel
+BRCA2 p.Asn1784Lys,BRCA2,Hereditary Breast Cancer,Medium,multiple submitters
+PALB2 p.Trp1038Ter,PALB2,Breast Cancer Predisposition,Medium,single submitter
+MYH7 p.Arg403Gln,MYH7,Hypertrophic Cardiomyopathy,High,multiple submitters
+MYH7 p.Arg453Cys,MYH7,Hypertrophic Cardiomyopathy,Medium,multiple submitters
+MYBPC3 p.Arg502Trp,MYBPC3,Hypertrophic Cardiomyopathy,Medium,expert panel
+MYBPC3 p.Gly1248Arg,MYBPC3,Hypertrophic Cardiomyopathy,High,single submitter
+LMNA p.Arg190Trp,LMNA,Dilated Cardiomyopathy,Medium,multiple submitters
+LMNA p.Glu161Lys,LMNA,Dilated Cardiomyopathy,High,single submitter
+SCN5A p.Thr1304Met,SCN5A,Long QT Syndrome,Medium,multiple submitters
+SCN5A p.Gly615Glu,SCN5A,Brugada Syndrome,High,single submitter
+KCNQ1 p.Gly269Ser,KCNQ1,Long QT Syndrome,Low,expert panel
+KCNH2 p.Tyr611His,KCNH2,Long QT Syndrome,Medium,multiple submitters
+RYR2 p.Arg176Leu,RYR2,CPVT,Medium,multiple submitters
+TP53 p.Arg175His,TP53,Li-Fraumeni Syndrome,Medium,multiple submitters
+TP53 p.Arg248Gln,TP53,Li-Fraumeni Syndrome,Low,expert panel
+PTEN p.Arg130Gln,PTEN,Cowden Syndrome,Medium,multiple submitters
+APC p.Ile1307Lys,APC,Colorectal Cancer Risk,Medium,multiple submitters
+MLH1 p.Ala681Thr,MLH1,Lynch Syndrome,High,single submitter
+MSH2 p.Gly674Ala,MSH2,Lynch Syndrome,Medium,multiple submitters
+PKP2 p.Arg79Ter,PKP2,Arrhythmogenic Cardiomyopathy,Medium,multiple submitters
+DSP p.Arg451Gly,DSP,Arrhythmogenic Cardiomyopathy,High,single submitter
+DSG2 p.Val920Gly,DSG2,Arrhythmogenic Cardiomyopathy,Medium,multiple submitters
+TTN p.Trp976Ter,TTN,Dilated Cardiomyopathy,Medium,multiple submitters
+TTN p.Arg13723Gln,TTN,Dilated Cardiomyopathy,High,single submitter
