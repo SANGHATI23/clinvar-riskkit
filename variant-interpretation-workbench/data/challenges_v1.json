@@ -1,0 +1,38 @@
+[
+  {
+    "variant": "BRCA1 c.68_69delAG",
+    "gene": "BRCA1",
+    "condition": "Hereditary Breast Cancer",
+    "review_status": "expert panel",
+    "num_submitters": 12,
+    "years_since_review": 1,
+    "conflicts": false,
+    "risk_tier": "Low",
+    "reference_label": "Pathogenic",
+    "vignette": "Adult patient with strong family history of early-onset breast cancer."
+  },
+  {
+    "variant": "MYH7 p.Arg403Gln",
+    "gene": "MYH7",
+    "condition": "Hypertrophic Cardiomyopathy",
+    "review_status": "multiple submitters",
+    "num_submitters": 5,
+    "years_since_review": 6,
+    "conflicts": true,
+    "risk_tier": "High",
+    "reference_label": "Pathogenic",
+    "vignette": "Patient with hypertrophic cardiomyopathy and family history of sudden cardiac death."
+  },
+  {
+    "variant": "TP53 p.Arg175His",
+    "gene": "TP53",
+    "condition": "Li-Fraumeni syndrome",
+    "review_status": "single submitter",
+    "num_submitters": 1,
+    "years_since_review": 4,
+    "conflicts": false,
+    "risk_tier": "Medium",
+    "reference_label": "Pathogenic",
+    "vignette": "Young adult with strong family history of early cancers."
+  }
+]
