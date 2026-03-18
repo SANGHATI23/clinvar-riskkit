@@ -1,0 +1,14 @@
+# Large data files
+*.txt
+*.gz
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Mac
+.DS_Store
+
+# Output files (optional)
+*.png
+*.csv
